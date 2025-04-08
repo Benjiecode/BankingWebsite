@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Get-in-touch-page.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="Get-in-touch-page.html"></script>
+    <title>
+      K-Banking Group - Personal Finance, Asset Management, Mortgages
+    </title>
+  </head>
+  <body>
+    <header>
+      <nav class="Top-navigation-bar">
+        <ul class="Top-navigation-menu">
+          <li><a href="About-Us-page.html" class="About-us">About Us</a></li>
+          <li><a href="Services-page.html" class="Services">Services</a></li>
+          <li>
+            <a href="Get-in-touch-page.html" class="ContactUs">Get in Touch</a>
+          </li>
+          <li class="FAQs-dropdown">
+            <button>FAQ's</button>
+            <div class="FAQs-menu">
+              <a href="FAQ's.html">What Services does K-Banking offer?</a>
+              <a href="FAQ's.html">How can I open an account?</a>
+              <a href="FAQ's.html">What are K-Banking's operating hours?</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <nav class="Bottom-navigation-bar">
+        <a href="Home-Page.html">
+          <img
+            src="Images/K-Banking.Logo.noBackGround.png"
+            alt="K-Banking Logo"
+            class="Logo"
+            height="100"
+            width="100"
+          />
+        </a>
+        <ul class="Bottom-navigation-menu">
+          <li>
+            <a href="Morgage-Calculator.html" class="MortgageCalculator"
+              >Mortgage Calculator</a
+            >
+          </li>
+          <li>
+            <a href="Services-page.html" class="SavingsAccounts"
+              >Saving Accounts</a
+            >
+          </li>
+          <li><a href="Services-page.html" class="Crypto">Crypto</a></li>
+          <li><a href="Services-page.html" class="Insurance">Insurance</a></li>
+          <li><a href="Services-page.html" class="Borrowing">Borrowing</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form class="enquiry-form" id="enquiry-form2">
+        <h2>Enquires</h2>
+        <div class="Form-input-field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+          <span class="error" id="nameError"></span>
+        </div>
+        <div class="Form-input-field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+          <span class="error" id="emailError"></span>
+        </div>
+        <div class="Form-input-field">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" required />
+          <span class="error" id="subjectError"></span>
+        </div>
+        <div class="Form-input-field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+          <span class="error" id="messageError"></span>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+    <section class="Home-page-footer-content-container">
+      <footer>
+        <div class="Footer-content-divider"></div>
+        <div class="Footer-content-upper">
+          <div class="Footer-logo">
+            <img
+              src="Images/K-Banking.Logo.noBackGround.png"
+              alt="K-Banking Logo"
+              height="110"
+              width="110"
+            />
+          </div>
+          <div class="Footer-column">
+            <h3>Find out More</h3>
+            <ul>
+              <li><a href="About-Us-page.html">Who are we</a></li>
+              <li><a href="FAQ's.html">FAQ's</a></li>
+              <li><a href="#">Docs</a></li>
+            </ul>
+          </div>
+          <div class="Footer-column">
+            <h3>Help & Services</h3>
+            <ul>
+              <li><a href="Services-page.html">Services</a></li>
+              <li><a href="Get-in-touch-page.html">Support</a></li>
+              <li><a href="Get-in-touch-page.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="Footer-column">
+            <h3>Legal</h3>
+            <ul>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Use</a></li>
+            </ul>
+          </div>
+          <div class="Footer-column Footer-social-media">
+            <h3>Follow Us</h3>
+            <ul class="Social-media-links">
+              <li>
+                <a href="#"
+                  ><img
+                    src="Images/facebook-icon.png"
+                    alt="Facebook"
+                    width="30"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="Images/twitter-icon.png" alt="Twitter" width="30"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="Images/linkedin-icon.png"
+                    alt="LinkedIn"
+                    width="30"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="Images/instagram-icon.png"
+                    alt="Instagram"
+                    width="30"
+                /></a>
+              </li>
+            </ul>
+            <p>&copy; 2024 K-Banking Group</p>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>

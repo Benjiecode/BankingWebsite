@@ -1,0 +1,267 @@
+body,
+html {
+  background-color: #ffffff;
+  font-family: Palatino, Linotype, Book Antiqua, Palatino, serif;
+  font-size: 14px;
+  line-height: normal;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.Top-navigation-bar {
+  background-color: #0056a3;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.Top-navigation-menu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+.Top-navigation-menu li {
+  display: flex;
+  align-items: center;
+}
+
+.Top-navigation-menu a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 20px;
+}
+
+.Top-navigation-menu button {
+  background-color: #0056a3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  font-family: inherit;
+}
+
+.FAQs-dropdown {
+  position: relative;
+}
+
+.FAQs-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 4px;
+  z-index: 1000;
+}
+
+.FAQs-dropdown:hover .FAQs-menu {
+  display: block;
+  width: 250px;
+}
+
+.FAQs-menu a {
+  display: block;
+  text-decoration: none;
+  color: #0056a3;
+  padding: 5px 10px;
+}
+
+.FAQs-menu a:hover {
+  background-color: #f0f0f0;
+  color: #003d7a;
+}
+
+.Login-signup button {
+  background-color: #0056a3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  font-family: inherit;
+}
+
+.Login-signup button a {
+  text-decoration: none;
+  color: white;
+}
+
+.Bottom-navigation-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #004080;
+  padding: 0px 30px;
+}
+
+.Logo {
+  display: block;
+}
+
+.Bottom-navigation-menu {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin: 0;
+  padding: 0px;
+}
+
+.Bottom-navigation-menu li {
+  display: flex;
+  align-items: center;
+}
+
+.Bottom-navigation-menu a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+}
+
+.enquiry-form {
+  justify-content: center;
+  position: fixed;
+  padding: 50px 500px;
+  width: 100%;
+}
+
+.enquiry-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #0056a3;
+}
+
+.contact-form .form-group {
+  margin-bottom: 15px;
+}
+
+.enquiry-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #003d7c;
+  font-weight: bold;
+}
+
+.enquiry-form input,
+.enquiry-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.enquiry-form textarea {
+  resize: none;
+  height: 100px;
+}
+
+.enquiry-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0056a3;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.enquiry-form button:hover {
+  background-color: #003d7c;
+  transform: translateY(-2px);
+}
+
+.enquiry-form .error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.Home-page-footer-content-container {
+  background-color: #0056a3;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  color: white;
+  padding: 20px;
+}
+
+.Footer-content-divider {
+  border-top: 2px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.Footer-content-upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.Footer-logo {
+  flex: 1;
+}
+
+.Footer-column {
+  flex: 1;
+  min-width: 150px;
+}
+
+.Footer-column h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.Footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.Footer-column ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.Footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.Footer-social-media ul {
+  display: flex;
+  gap: 10px;
+  padding: 0;
+}
+
+.Footer-social-media ul li {
+  list-style: none;
+}
+
+.Footer-social-media ul li img {
+  display: block;
+}
